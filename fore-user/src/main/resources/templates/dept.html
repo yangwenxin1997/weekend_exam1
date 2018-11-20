@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>部门管理</title>
+    <link rel="import" href="common.html">
+
+    <script type="text/javascript" >
+
+        $(function () {
+            $('#categoryTable').datagrid({
+                url: '/category/list',
+                method: 'get',
+                columns: [[
+                    {field:'cid',title:'部门编号',width:200,align:'center'},
+                    {field:'cname',title:'部门名称',width:200,align:'center'}
+                ]],
+                toolbar: [
+                    {
+                        iconCls: 'icon-edit',
+                        handler: function(){
+                            alert('edit')
+                        }
+                    },'-',{
+                        iconCls: 'icon-help',
+                        handler: function(){
+                            alert('help')
+                        }
+                    }
+                ]
+            })
+        });
+        
+    </script>
+</head>
+
+
+<body>
+
+
+<div class="demo-info">
+    <div class="demo-tip icon-tip"></div>
+</div>
+<div style="margin:10px 0;"></div>
+
+<table id="categoryTable"></table>
+
+</body>
+
+
+
+</html>

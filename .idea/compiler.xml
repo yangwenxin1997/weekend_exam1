@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dept-controller" />
+        <module name="dept-dao" />
+        <module name="dept-domain" />
+        <module name="dept-service" />
+        <module name="dept-util" />
+        <module name="fore-dao" />
+        <module name="fore-domain" />
+        <module name="fore-service" />
+        <module name="fore-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dept-controller" target="1.8" />
+      <module name="dept-dao" target="1.8" />
+      <module name="dept-domain" target="1.8" />
+      <module name="dept-service" target="1.8" />
+      <module name="dept-util" target="1.8" />
+      <module name="fore-dao" target="1.8" />
+      <module name="fore-domain" target="1.8" />
+      <module name="fore-service" target="1.8" />
+      <module name="fore-user" target="1.8" />
+      <module name="weekend_exam1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

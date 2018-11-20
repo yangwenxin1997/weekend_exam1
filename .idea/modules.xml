@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dept-controller/dept-controller.iml" filepath="$PROJECT_DIR$/dept-controller/dept-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dept-dao/dept-dao.iml" filepath="$PROJECT_DIR$/dept-dao/dept-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dept-domain/dept-domain.iml" filepath="$PROJECT_DIR$/dept-domain/dept-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dept-service/dept-service.iml" filepath="$PROJECT_DIR$/dept-service/dept-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dept-util/dept-util.iml" filepath="$PROJECT_DIR$/dept-util/dept-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fore-dao/fore-dao.iml" filepath="$PROJECT_DIR$/fore-dao/fore-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fore-domain/fore-domain.iml" filepath="$PROJECT_DIR$/fore-domain/fore-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fore-service/fore-service.iml" filepath="$PROJECT_DIR$/fore-service/fore-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fore-user/fore-user.iml" filepath="$PROJECT_DIR$/fore-user/fore-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weekend_exam1.iml" filepath="$PROJECT_DIR$/weekend_exam1.iml" />
+    </modules>
+  </component>
+</project>
